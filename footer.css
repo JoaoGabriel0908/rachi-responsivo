@@ -1,0 +1,66 @@
+.contatos{
+    gap: 50px;
+    background-image: url(IMG/imagem-contatos.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.contatos .texto5{
+    margin-top: 50px;
+    align-items: center;
+    
+}
+.contatos .texto5 h1 a{
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    font-family: 'Sora', sans-serif;
+    font-size: 40px;
+    line-height: 40,50px;
+}
+.contatos .texto5 > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 90px;
+    width: 500px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+}
+.contatos .enviar{
+    margin-bottom: 85px;
+}
+.contatos .enviar button{
+    margin-left: 90px;
+    width: 118px;
+    height: 38px;
+    background-color: #0F9AFE;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.contatos .enviar input{
+    color: #fff;
+    line-height: 50px;
+    width: 300px;
+    background-color: transparent;
+    
+}
+.direitos{
+    padding: 50px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sora', sans-serif;
+    color: #293145;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+}
+@media (max-width: 1024px) {
+
+}
