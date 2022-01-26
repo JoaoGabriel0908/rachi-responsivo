@@ -42,6 +42,12 @@
     background-color: #0F9AFE;
     border-radius: 50px;
     cursor: pointer;
+    transition-duration: .5s;
+}
+.contatos .enviar button:hover{
+    background-color: seashell;
+    transform: scale(1.2);
+    color: #0F9AFE;
 }
 .contatos .enviar input{
     color: #fff;
@@ -61,6 +67,14 @@
     font-weight: 400px;
     font-style: normal;
 }
-@media (max-width: 1024px) {
-
+@media (max-width: 650px) {
+    .contatos .texto5 > p{
+        width: inherit;
+    }
+    .contatos .enviar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
