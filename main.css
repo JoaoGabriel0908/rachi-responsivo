@@ -24,7 +24,7 @@ main{
 .texto{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     align-items: flex-start;
     
 }
@@ -128,7 +128,7 @@ main{
 .texto2 p{
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1em;
     height: 78px;
     width: 448px;
     color: #6E7275;
@@ -219,7 +219,7 @@ main{
     margin-bottom: 50px;
 }
 .planos .cartoes p{
-    font-size: 18px;
+    font-size: 1em;
     line-height: 25px;
     font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
@@ -360,6 +360,7 @@ main{
     .texto2{
         width: 40%;
     }
+}
     @media (max-width: 650px) {
         body{
             align-items: center;
@@ -369,13 +370,20 @@ main{
         }
         main{
             max-width: 100vw;
+            
         }
         .cadastro{
+            margin-bottom: 20px;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
+            margin-top: 100px;
         }
         .cadastro img{
             width: 35%;
+        }
+        .cadastro .texto{
+            align-items: center;
+            text-align: center;
         }
         .servico{
             display: flex;
@@ -383,6 +391,18 @@ main{
             gap: 50px;
             margin-top: 1em;
             margin-bottom: 1em;
+        }
+        .app{
+            display: flex;
+            align-items: flex-start;
+        }
+        .app .texto{
+            flex-direction: column;
+            width: inherit;
+        }
+        .app .celular{
+            position: relative;
+            top: 8em;
         }
         .funcionalidades{
             gap: 20px;
@@ -395,6 +415,34 @@ main{
             width: inherit;
             font-size: inherit;
         }
+    }
+@media (max-width: 412px) {
+    .cadastro .texto h1{
+        width: 280px;
+    }
+    .planos .cartoes p{
+        height: inherit;
+        display: none;
+    }
+    .planos .cartoes{
+        height: inherit;
+    }
+    .planos .assinar{
+        width: inherit;
+    }
+    .app{
+        height: inherit;
+    }
+    .app .imagens{
+        align-items: flex-end;
+        width: 90vw;
+    }
+    .app .texto2 p{
+        display: none;
+    }
+    .app .texto h1{
+        width: inherit;
+        align-items: flex-start;
     }
 }
 

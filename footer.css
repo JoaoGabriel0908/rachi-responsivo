@@ -28,7 +28,7 @@
     color: #fff;
     margin-bottom: 90px;
     width: 500px;
-    font-size: 18px;
+    font-size: 1em;
     font-family: 'Roboto', sans-serif;
     height: 50px;
 }
@@ -70,6 +70,7 @@
 @media (max-width: 650px) {
     .contatos .texto5 > p{
         width: inherit;
+        flex-wrap: wrap;
     }
     .contatos .enviar{
         display: flex;
@@ -77,4 +78,5 @@
         gap: 20px;
     }
 }
+
 

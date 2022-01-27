@@ -47,30 +47,36 @@ header{
 @media (max-width: 650px) {
     header{
         position: relative;
-        background-color: #000;
         width: 100vw;
-        height: 100vh;
+        height: 100px;
+        align-items: center;
+        z-index: 1;
     }
     .menu{
         position: absolute;
         display: none;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         top: 0;
         left: 0;
-        background-color: #000;
+        background-color: white;
     }
+
     .logo {
         display: flex;
-        position: relative;
-        top: 20px;
-        left: 20px;
+        position: absolute;
+        top: 35px;
+        left: 50px;
         background-image: url(./IMG/Group\ 33553.png);
         background-repeat: no-repeat;
-        width: 90vw;
+        width: 80vw;
         height: 100%;
+        align-items: center;
+    }
+    a.logo{
+        background-size: 100px;
     }
     .logo img {
         display: none;
@@ -81,6 +87,6 @@ header{
         gap: 65px;
     }
     .menu a {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 }
