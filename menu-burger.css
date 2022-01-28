@@ -17,7 +17,7 @@
     height: 4px;
     background-color: #0F9AFE;
     border-radius: 4px;
-    transition: all 0.7s;
+    transition: all 0.1s;
 }
 
 .menu-burger::before {
