@@ -77,6 +77,7 @@ header{
     }
     a.logo{
         background-size: 100px;
+        width: 100px;
     }
     .logo img {
         display: none;

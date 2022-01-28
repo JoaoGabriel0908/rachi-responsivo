@@ -422,6 +422,7 @@ main{
     }
     .planos .cartoes p{
         height: inherit;
+        width: inherit;
         display: none;
     }
     .planos .cartoes{
@@ -429,6 +430,9 @@ main{
     }
     .planos .assinar{
         width: inherit;
+    }
+    .planos .texto3 p{
+        width: 80%;
     }
     .app{
         height: inherit;

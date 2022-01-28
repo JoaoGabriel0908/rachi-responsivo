@@ -17,7 +17,7 @@
     height: 4px;
     background-color: #0F9AFE;
     border-radius: 4px;
-    transition: all 0.1s;
+    transition: 0.7s;
 }
 
 .menu-burger::before {
@@ -42,6 +42,7 @@
 
 .menu-burger-container:active ~ nav {
     display: flex;
+    position: absolute;
 }
 @media (max-width: 650px) {
     .menu-burger-container {
